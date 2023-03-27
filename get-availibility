@@ -1,0 +1,8 @@
+GET /availability/dates
+
+$dates = $acuity->request('/availability/dates', array(
+  'query' => array(
+    'month' => '2016-04',
+    'appointmentTypeID' => 5 
+  ) 
+));
