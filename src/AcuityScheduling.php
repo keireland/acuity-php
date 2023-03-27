@@ -3,8 +3,8 @@
 class AcuityScheduling {
 
 	protected $base = 'https://acuityscheduling.com';
-	protected $userId = null;
-	protected $apiKey = null;
+	protected $userId = 11311841;
+	protected $apiKey = 2f208892ae8fad1d4db3398beff0f671;
 	protected $lastStatusCode = null;
 
 	public function __construct($options) {
